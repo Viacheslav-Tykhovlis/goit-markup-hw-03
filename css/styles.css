@@ -69,7 +69,8 @@ img {
   margin-left: 50px;
 }
 
-.nav-container > .nav > li > a {
+.nav-container > .nav > li > a,
+.nav-auth > li > a {
   display: inline-block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -143,6 +144,8 @@ img {
 .section-hero {
   background-color: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero {
@@ -255,7 +258,6 @@ img {
 
 .team-item {
   background-color: #ffffff;
-  padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -270,8 +272,9 @@ img {
   text-decoration: none;
 }
 
-.team-img {
-  margin-bottom: 30px;
+.team-desc {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-name {
@@ -348,6 +351,7 @@ img {
 .portfolio-description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio-company {
