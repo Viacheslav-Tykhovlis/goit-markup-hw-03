@@ -1,4 +1,4 @@
-/* General styles */
+/*#region General styles */
 
 :root {
   --color-text: #757575;
@@ -43,8 +43,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/*#endregion */
 
-/* Header & Footer */
+/*#region  Header & Footer */
 
 .header > .container,
 .header > .container > .nav-container,
@@ -136,10 +137,9 @@ img {
 .mail.nav-list {
   color: var(--color-text);
 }
+/*#endregion */
 
-/* Body */
-
-/* Hero */
+/*#region  Hero */
 
 .section-hero {
   background-color: #2f303a;
@@ -179,8 +179,9 @@ img {
 .button-hero:focus {
   background-color: #188ce8;
 }
+/*#endregion */
 
-/* Feature */
+/*#region  Feature */
 
 .visually-hidden {
   position: absolute;
@@ -218,8 +219,9 @@ img {
   letter-spacing: 0.03em;
   max-width: 270px;
 }
+/*#endregion */
 
-/* Promo */
+/*#region  Promo */
 
 .promo {
   padding-bottom: 94px;
@@ -241,8 +243,9 @@ img {
 .promo-list > li:not(:first-child) {
   margin-left: 30px;
 }
+/*#endregion */
 
-/* Team */
+/*#region  Team */
 
 .team {
   background-color: #f5f4fa;
@@ -294,8 +297,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
+/*#endregion */
 
-/* Portfolio */
+/*#region  Portfolio */
 
 .filter {
   display: flex;
@@ -368,8 +372,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--color-text);
 }
+/*#endregion */
 
-/* Only Footer */
+/*#region  Only Footer */
 
 .footer {
   background-color: #2f303a;
@@ -401,3 +406,4 @@ img {
 .ul-adress li:not(:last-child) {
   margin-bottom: 9px;
 }
+/*#endregion */
